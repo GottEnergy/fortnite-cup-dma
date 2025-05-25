@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": ".\\temp\\microsoft\\STL\\std.obj",
+            "outputs": [
+                ".\\temp\\microsoft\\STL\\std.ixx.ifc.dt.module.json",
+                ".\\temp\\microsoft\\STL\\std.ixx.ifc.dt.d.json",
+                ".\\temp\\microsoft\\STL\\std.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\modules\\std.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
