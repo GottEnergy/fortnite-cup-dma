@@ -1,0 +1,355 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(519,5): warning MSB8004: Das Intermediate-Verzeichnis endet nicht mit einem nachstehenden Schrägstrich. Der Schrägstrich wird in dieser Buildinstanz hinzugefügt, da er für die ordnungsgemäße Auswertung des Intermediate-Verzeichnisses erforderlich ist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(520,5): warning MSB8004: Das Output-Verzeichnis endet nicht mit einem nachstehenden Schrägstrich. Der Schrägstrich wird in dieser Buildinstanz hinzugefügt, da er für die ordnungsgemäße Auswertung des Output-Verzeichnisses erforderlich ist.
+  menu.cpp
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\kmbox\HidTable.h(119,9): warning C4005: "KEY_EXECUTE": Makro-Neudefinition
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(23264,9):
+      siehe vorherige Definition von "KEY_EXECUTE"
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\kmbox\kmbox_interface.h(82,57): warning C4267: "Argument": Konvertierung von "size_t" nach "DWORD", Datenverlust möglich
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(58,32): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(58,53): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(58,74): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(110,16): warning C4091: "typedef ": Ignoriert auf der linken Seite von "FMATRIX", wenn keine Variable deklariert wurde
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(132,22): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(133,22): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(134,22): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(136,12): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(137,12): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(138,12): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(140,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(141,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(142,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(143,32): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(144,32): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(145,32): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(147,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(148,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(149,23): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(150,23): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(152,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(153,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(154,23): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(155,23): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(157,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(158,13): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(159,23): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\definitions.h(160,23): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\leechcore.h(120,15): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\leechcore.h(120,15):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\leechcore.h(473,14): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\leechcore.h(473,14):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\leechcore.h(482,14): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\leechcore.h(482,14):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(395,39): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(395,39):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1548,29): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1548,29):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1558,29): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1558,29):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1565,31): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1565,31):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1574,32): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1574,32):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1583,40): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1583,40):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1599,29): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1599,29):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1609,29): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1609,29):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1618,30): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1618,30):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1626,35): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1626,35):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1633,32): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1633,32):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1646,42): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1646,42):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1655,32): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1655,32):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1666,30): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1666,30):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1675,33): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1675,33):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1684,33): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1684,33):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1693,33): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1693,33):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1702,29): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1702,29):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1710,33): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1710,33):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1719,30): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1719,30):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1728,28): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1728,28):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1737,33): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(1737,33):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(2322,29): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Users\chef\Desktop\P PASTE\FortniteDma\external\vmmdll.h(2322,29):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\dma\DMAHandler.h(536,22): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\utils.h(29,17): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\utils.h(30,15): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\utils.h(31,16): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\utils.h(56,25): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\utils.h(57,25): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\cheat\utils.h(58,25): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+  
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(41,17): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(45,19): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(46,19): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(47,19): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(273,43): warning C4806: "&": unsichere Operation: kein Wert vom Typ "bool" erweitert auf Typ "int" kann mit der angegebenen Konstante übereinstimmen
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(370,77): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(381,71): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(399,74): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(410,84): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(463,81): warning C4806: "&": unsichere Operation: kein Wert vom Typ "bool" erweitert auf Typ "int" kann mit der angegebenen Konstante übereinstimmen
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(518,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(518,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(520,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(520,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(522,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(522,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(524,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(524,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(526,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(526,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(528,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(528,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(530,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(530,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(532,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(532,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(534,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(534,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(536,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(536,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(538,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(538,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(540,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(540,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(543,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(543,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(545,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(545,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(547,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(547,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(549,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(549,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(551,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(551,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(553,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(553,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(560,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(560,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(562,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(562,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(564,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(564,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(566,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(566,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(568,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(568,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(570,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(570,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(572,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(572,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(574,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(574,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(576,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(576,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(578,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(578,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(584,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(584,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(586,35): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\chef\Desktop\P PASTE\FortniteDma\src\menu\menu.cpp(586,30): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4829,18): warning C4244: "=": Konvertierung von "wchar_t" in "char", möglicher Datenverlust
+  (Quelldatei „src/menu/menu.cpp“ wird kompiliert)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(4829,18):
+      der Vorlageninstanziierungskontext (der älteste zuerst) ist
+          C:\Users\chef\Desktop\P PASTE\FortniteDma\src\dma\DMAHandler.h(129,21):
+          Siehe Verweis auf die gerade kompilierte Instanziierung "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)" der Funktions-Vorlage.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\chef\Desktop\P PASTE\FortniteDma\src\dma\DMAHandler.h(129,3):
+              Ersten Verweis auf "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" in "DMAHandler::QueryValue" anzeigen
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(788,17):
+          Siehe Verweis auf die gerade kompilierte Instanziierung "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)" der Funktions-Vorlage.
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(944,18):
+          Siehe Verweis auf die gerade kompilierte Instanziierung "_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)" der Funktions-Vorlage.
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Code wird generiert.
+  12 of 5809 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    67 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  FortniteDma.vcxproj -> C:\Users\chef\Desktop\P PASTE\FortniteDma\x64\Release\FortniteDma.exe

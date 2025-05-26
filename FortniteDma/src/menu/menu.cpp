@@ -27,7 +27,7 @@
 
 #include "../cheat/utils.h"
 
-// what is this you ask? well, ask chatgpt - sfYass
+// what is this you ask? well, ask chatgpt :)
 static int StringInputTextCallback(ImGuiInputTextCallbackData* data) {
 	if (data->EventFlag == ImGuiInputTextFlags_CallbackResize) {
 		std::string* str = static_cast<std::string*>(data->UserData);
@@ -55,22 +55,17 @@ Rotation targetRotation(const Vector3& currentPosition, const Vector3& targetPos
 
 	return { yawDegrees, pitchDegrees };
 }
-//Niggerhack 13.38 - ChatGPT Aimbot Pre. Alpha Beta Edition
-
-
 
 
 
 void menu::Menu() {
 	const float windowWidth = 850.0f;
-	const float windowHeight = 548.0f; // 28 + 520
+	const float windowHeight = 548.0f;
 	const float headerHeight = 28.0f;
 
-	// Set initial window position and size (only once)
 	ImGui::SetNextWindowPos(ImVec2(100, 70), ImGuiCond_FirstUseEver);
 	ImGui::SetNextWindowSize(ImVec2(windowWidth, windowHeight), ImGuiCond_FirstUseEver);
 
-	// Style settings
 	ImGui::PushStyleVar(ImGuiStyleVar_WindowRounding, 6.0f);
 	ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0.07f, 0.07f, 0.09f, 0.95f));
 	ImGui::PushStyleColor(ImGuiCol_Border, ImVec4(0.2f, 0.2f, 0.25f, 0.8f));
@@ -82,19 +77,15 @@ void menu::Menu() {
 		ImGuiWindowFlags_NoScrollbar
 	);
 
-	// --- Header inside main window ---
 	ImVec2 fullSize = ImGui::GetWindowSize();
-	ImVec2 textSize = ImGui::CalcTextSize("Your Software Name - Aimbot Beta");
-
 	ImGui::PushStyleColor(ImGuiCol_ChildBg, ImVec4(0.07f, 0.07f, 0.09f, 0.95f));
 	ImGui::BeginChild("HeaderBar", ImVec2(fullSize.x, headerHeight), false,
 		ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoMove);
-	ImGui::SetCursorPosX((fullSize.x - textSize.x) * 0.5f);
-	ImGui::Text("Your Software Name - Aimbot Beta");
+	ImGui::SetCursorPosX(10.0f); // Left aligned
+	ImGui::Text("Mental.ill - Substance Abuse Edition");
 	ImGui::EndChild();
 	ImGui::PopStyleColor();
 
-	// Style settings for main UI
 	ImGuiStyle& style = ImGui::GetStyle();
 	style.WindowRounding = 6.0f;
 	style.FrameRounding = 4.0f;
@@ -108,11 +99,10 @@ void menu::Menu() {
 	style.Colors[ImGuiCol_Text] = ImVec4(0.95f, 0.95f, 0.95f, 1.0f);
 
 	static int currentTab = 0;
-	const char* tabs[] = { "Aim", "Visuals", "Config" };
+	const char* tabs[] = { "Aim", "Visuals", "Playerlist", "Misc" };
 	static bool selectingAim = false;
 	static bool selectingTrigger = false;
 
-	// --- Sidebar ---
 	ImGui::BeginChild("##tabbar", ImVec2(140, 0), true,
 		ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoResize);
 	for (int i = 0; i < IM_ARRAYSIZE(tabs); i++) {
@@ -131,12 +121,11 @@ void menu::Menu() {
 
 	ImGui::SameLine();
 
-	// --- Content Area ---
 	ImVec2 avail = ImGui::GetContentRegionAvail();
 	ImGui::BeginChild("##content", ImVec2(avail.x, avail.y), true,
 		ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoResize);
 
-	// Tab 0: Aim
+	// --- Tab 0: Aim ---
 	if (currentTab == 0) {
 		ImGui::Text("Aimbot");
 		ImGui::Checkbox("Aimbot", &settings::config::Aimbot);
@@ -204,7 +193,7 @@ void menu::Menu() {
 		}
 	}
 
-	// Tab 1: Visuals
+	// --- Tab 1: Visuals ---
 	else if (currentTab == 1) {
 		ImGui::Text("ESP");
 		ImGui::Checkbox("Box", &settings::config::Box);
@@ -216,7 +205,7 @@ void menu::Menu() {
 		ImGui::ColorEdit4("##SkeletonColor", (float*)&settings::config::SkeletonColor, ImGuiColorEditFlags_NoInputs);
 		ImGui::Checkbox("Distance", &settings::config::Distance);
 		ImGui::Checkbox("Show FOV", &settings::config::ShowAimFov);
-		ImGui::Checkbox("Crosshair", &settings::config::swastika); // Consider renaming this.
+		ImGui::Checkbox("Crosshair", &settings::config::swastika); // Rename this for professionalism.
 		ImGui::Checkbox("Show Prediction", &settings::config::renderPrediction);
 		ImGui::Checkbox("Indicators", &settings::config::Indicators);
 
@@ -227,8 +216,88 @@ void menu::Menu() {
 		ImGui::SliderFloat("Zoom", &settings::config::RadarZoom, 0.5f, 10.f);
 	}
 
-	// Tab 2: Config
+	// --- Tab 2: Playerlist ---
 	else if (currentTab == 2) {
+		std::unordered_map<uintptr_t, PlayerCache> PlayerList = secondPlayerList;
+		static uintptr_t selectedPlayer = 0;
+
+		// Full area
+		ImVec2 listSize = ImVec2(250, avail.y);
+		ImVec2 detailSize = ImVec2(avail.x - listSize.x - 10, avail.y); // 10px spacing
+
+		ImGui::BeginChild("##PlayerListMain", avail, true);
+
+		// Left: Player list
+		ImGui::BeginChild("##PlayerListLeft", listSize, true);
+		for (auto& [stateAddr, cache] : PlayerList) {
+			bool isSelected = (selectedPlayer == stateAddr);
+			bool invalid = (!cache.Pawn || !cache.BoneArray);
+
+			ImGui::PushStyleColor(ImGuiCol_Text, invalid
+				? ImColor(255, 0, 0, 255).Value
+				: ImColor(0, 255, 0, 255).Value);
+
+			if (ImGui::Selectable(std::format("PlayerState -> 0x{:X} {} {}",
+				stateAddr,
+				invalid ? "(invalid)" : "(valid)",
+				stateAddr == point::PlayerState ? "(me)" : ""
+			).c_str(), isSelected)) {
+				selectedPlayer = stateAddr;
+			}
+
+			ImGui::PopStyleColor();
+		}
+		ImGui::EndChild();
+
+		ImGui::SameLine();
+
+		// Right: Player details
+		ImGui::BeginChild("##PlayerListRight", detailSize, true);
+
+		if (selectedPlayer && PlayerList.contains(selectedPlayer)) {
+			auto& p = PlayerList[selectedPlayer];
+			uintptr_t BoneArray = p.BoneArrays[0].data;
+			if (!BoneArray) BoneArray = p.BoneArrays[1].data;
+
+			ImGui::Text("Selected: 0x%lX", selectedPlayer);
+			ImGui::Separator();
+			ImGui::Text("Pawn: 0x%lX", p.Pawn);
+			ImGui::Text("Mesh: 0x%lX", p.Mesh);
+			ImGui::Text("BoneArray: 0x%lX", BoneArray);
+			ImGui::Text("RootComponent: 0x%lX", p.RootComponent);
+			ImGui::Separator();
+
+			ImGui::Text("Team ID: %d", p.TeamId);
+			ImGui::Text("isDying: %s", (p.isDying & 0x10) ? "true" : "false");
+			ImGui::Text("isDBNO: %s", (p.isDBNO & 0x10) ? "true" : "false");
+			ImGui::Text("isBot: %s", (p.isBot & (1 << 3)) ? "true" : "false");
+			ImGui::Separator();
+
+			ImGui::Text("Velocity: x: %.2f y: %.2f z: %.2f", p.Velocity.x, p.Velocity.y, p.Velocity.z);
+			ImGui::Text("Last Render: %.2f", p.last_render);
+			ImGui::Separator();
+
+			ImGui::Text("World Positions:");
+			ImGui::Text("Head:     x: %.2f y: %.2f z: %.2f", p.Head3D.x, p.Head3D.y, p.Head3D.z);
+			ImGui::Text("Bottom:   x: %.2f y: %.2f z: %.2f", p.Bottom3D.x, p.Bottom3D.y, p.Bottom3D.z);
+			ImGui::Text("Hip:      x: %.2f y: %.2f z: %.2f", p.Hip3D.x, p.Hip3D.y, p.Hip3D.z);
+			ImGui::Text("Neck:     x: %.2f y: %.2f z: %.2f", p.Neck3D.x, p.Neck3D.y, p.Neck3D.z);
+			ImGui::Separator();
+
+			ImGui::Text("Screen Positions:");
+			ImGui::Text("Head:     x: %.2f y: %.2f z: %.2f", p.Head2D.x, p.Head2D.y, p.Head2D.z);
+			ImGui::Text("Bottom:   x: %.2f y: %.2f z: %.2f", p.Bottom2D.x, p.Bottom2D.y, p.Bottom2D.z);
+			ImGui::Text("Hip:      x: %.2f y: %.2f z: %.2f", p.Hip2D.x, p.Hip2D.y, p.Hip2D.z);
+			ImGui::Text("Neck:     x: %.2f y: %.2f z: %.2f", p.Neck2D.x, p.Neck2D.y, p.Neck2D.z);
+		}
+
+		ImGui::EndChild();
+		ImGui::EndChild();
+	}
+
+
+	// --- Tab 3: Misc ---
+	else if (currentTab == 3) {
 		ImGui::Text("Net");
 		ImGui::InputText("Ip", &settings::kmbox::net::ip[0], settings::kmbox::net::ip.capacity() + 1, ImGuiInputTextFlags_CallbackResize, StringInputTextCallback, &settings::kmbox::net::ip);
 		ImGui::InputText("Port", &settings::kmbox::net::port[0], settings::kmbox::net::port.capacity() + 1, ImGuiInputTextFlags_CallbackResize, StringInputTextCallback, &settings::kmbox::net::port);
@@ -262,6 +331,9 @@ void menu::Menu() {
 	ImGui::PopStyleColor(2);
 	ImGui::PopStyleVar();
 }
+
+
+
 
 
 
