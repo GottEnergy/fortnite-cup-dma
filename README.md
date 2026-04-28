@@ -8,5 +8,3 @@ https://www.unknowncheats.me/forum/fortnite/677028-fortnite-dma-cheat-cr3-shuffl
 updated the most part of the aimbot and visual aspect of the cheat. 
 
 
-Menu:
-![image](https://github.com/user-attachments/assets/afc1754e-1216-4507-a98b-9cf245aa8b94)
